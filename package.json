@@ -1,0 +1,25 @@
+{
+  "name": "single-price-grid-component-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niitettey112/single-price-grid-component-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niitettey112/single-price-grid-component-master/issues"
+  },
+  "homepage": "https://github.com/niitettey112/single-price-grid-component-master#readme",
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.3"
+  }
+}
